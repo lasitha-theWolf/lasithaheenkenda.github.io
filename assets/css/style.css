@@ -78,6 +78,7 @@ h6 {
   line-height: 1;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
+  
 }
 
 #header h1 a,
@@ -94,7 +95,16 @@ h6 {
 
 
 }
+#header h2 span {
+  background-color:black;
 
+
+}
+#header h1 span {
+  background-color: black;
+
+
+}
 #header h2 span {
   color: #fff;
   border-bottom: 2px solid #18d26e;
