@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404 url("../img/bg.jpg")  right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -51,6 +51,7 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+  
 }
 
 /*--------------------------------------------------------------
@@ -81,7 +82,7 @@ h6 {
 
 #header h1 a,
 #header h1 a:hover {
-  color: #fff;
+  color: Navyblue;
   line-height: 1;
   display: inline-block;
 }
@@ -89,7 +90,10 @@ h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: rgba(255, 255, 255, 0.8);
+  margin-right: 650px;
+  color: (255, 255, 255, 0.8);
+  background-color: #040404 ;
+
 }
 
 #header h2 span {
